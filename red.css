@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+   
+}
+.container{
+    position: relative;
+   height: 2000px;
+    background-color: #ffffff;
+ 
+}
+.container.box{
+   width: 80%;
+   margin: 0 auto;
+}
+.menu-navi li a{
+   text-decoration: none;
+}
+.menu-navimain .menu-navi li   {
+    cursor: pointer;
+    float: left;
+     position: relative;
+     top:20px;
+     bottom: 20px;
+     left:40%;
+     font-size: 25px;
+     color: red;
+  
+}
+.menu-navimain .menu-navi li:hover   {
+   color: red;
+   font-weight: bold;
+}
+
+.menu-navi{
+    list-style: none;
+   
+}
+.menu-navi li{
+    margin-right: 50px;
+    
+}
+.menu-navimain{
+    margin: 0 auto;
+}
+.slider-first img{
+    position: relative;
+    width: 100%;
+    top: 40px;;
+    height: 500px;
+}
+.content{
+    font-size: 18px;
+    position: relative;
+    top:100px;
+    width: 80%;
+    margin: 0 auto;
+}
+.about h2{
+    position: relative;
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+   animation-name:About ;
+   animation-iteration-count: 1;
+   animation-duration: 3s;
+   opacity: 1;
+}
+.about p{
+    color: red;
+    line-height: 1.8;
+   letter-spacing: 1;
+}
+.about button{
+    position: relative;
+    top:20px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 100px;
+    background-color: #ffffff;
+    opacity:0.8;
+}
+.about button:hover{
+    cursor: pointer;
+   background-color: #eeeeee;
+   opacity:1;
+}
+.content .layout{
+    float: left;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.layout .xuanba-img{
+    height: 400px;
+}
+.layout .xuanba-img:hover{
+    position: relative;
+    animation-timing-function: ease-in-out;
+   height: 420px;
+}
+
+@keyframes About{
+    0% {left: -300px; opacity: 0;}
+    50% {left: 400px; opacity: 0.5;}
+    100% {left: 0px; opacity: 1;}
+}
+.dropdown{
+    width: 325px;
+    position: absolute;
+     
+}
+.dropdown button{
+   top:20px;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 10px 100px;
+   background-color: #ffffff;
+   opacity:0.8;
+   border-radius: 30px;
+}
+.dropdown-menu{
+    list-style: none;
+}
+.dropdown-menu li{
+   margin-top: 15px;
+   margin-left: 10px;
+}
+.dropdown-menu li:hover{
+    
+   background-color: #eeeeee;
+}
+
+.dropdown .dropdown-menu{
+   box-shadow: 1px 1px 20px black;
+   position: relative;
+   top:-20px;
+   border-radius: 30px;
+   display: none;
+   background-color: #ffffff;
+   z-index: 2;
+}
+.dropdown.hide .dropdown-menu{
+   display: block;
+}
+.content1{
+   position: absolute;
+   
+}
+.content2{
+    position: relative;
+    top:480px;
+}
+option:hover{
+    background-color: #eeeeee;
+}
+.select-content{
+    position: relative;
+    top: 600px;
+    left:200px;
+    
+}
+
